@@ -15,7 +15,7 @@ class LayoutBuilder:
 
         tk.Label(topbar, text="Algorithm:").pack(side=tk.LEFT, padx=(10,4))
         app.algo_combo = ttk.Combobox(topbar, state="readonly",
-                                      values=list(app.algorithms_dict.keys()))
+                                    values=list(app.algorithms_dict.keys()))
         app.algo_combo.set(app.current_algo_key)
         app.algo_combo.pack(side=tk.LEFT)
         app.algo_combo.bind("<<ComboboxSelected>>", app.controls.on_algo_change)
@@ -39,7 +39,13 @@ class LayoutBuilder:
         app.stack_frame.pack(side=tk.LEFT, padx=10)
         app.stack_label = tk.Label(app.stack_frame, text="Frontier State")
         app.stack_label.pack()
-        app.stack_text = tk.Text(app.stack_frame, width=36, height=22)
+        
+        # Tính toán kích thước Text widget dựa trên kích thước canvas
+        canvas_size = app.n * app.cell_size  # Kích thước pixel của canvas
+        char_width = canvas_size // 8  # Ước lượng số ký tự cho chiều rộng (8px mỗi ký tự)
+        char_height = canvas_size // 16  # Ước lượng số dòng cho chiều cao (16px mỗi dòng)
+        
+        app.stack_text = tk.Text(app.stack_frame, width=char_width, height=char_height, font=("Courier", 10))
         app.stack_text.pack()
 
         # --- Khu vực Nút điều khiển ---
@@ -73,13 +79,13 @@ class LayoutBuilder:
         app.icon_fast_forward = load_icon("fast-forward-icon.png")
 
         app.btn_fast_backward = tk.Button(nav_frame, image=app.icon_fast_backward,
-                                          command=app.fast_backward, state=tk.DISABLED)
+                                        command=app.fast_backward, state=tk.DISABLED)
         app.btn_back = tk.Button(nav_frame, image=app.icon_back,
-                                 command=app.step_back, state=tk.DISABLED)
+                                command=app.step_back, state=tk.DISABLED)
         app.btn_next = tk.Button(nav_frame, image=app.icon_next,
-                                 command=app.step, state=tk.DISABLED)
+                                command=app.step, state=tk.DISABLED)
         app.btn_fast_forward = tk.Button(nav_frame, image=app.icon_fast_forward,
-                                         command=app.fast_forward, state=tk.DISABLED)
+                                        command=app.fast_forward, state=tk.DISABLED)
 
         for b in [app.btn_fast_backward, app.btn_back, app.btn_next, app.btn_fast_forward]:
             b.pack(side=tk.LEFT, padx=4)
