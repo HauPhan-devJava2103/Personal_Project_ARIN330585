@@ -93,7 +93,7 @@ Trong bài toán 8 quân Xe, mỗi trạng thái là danh sách vị trí các X
 
 <div align="center">
   <img src="assets/BFS.gif" alt="BFS Rooks Visualization" width="480"><br>
-  <i>Hình minh họa: BFS lần lượt đặt các quân Xe hợp lệ trên bàn cờ.</i>
+  <i>Hình minh họa: BFS lần lượt đặt các quân Xe hợp lệ trên bàn cờ.</i>
 </div>
 
 <p align="center">
@@ -170,7 +170,7 @@ Thuật toán phù hợp với không gian nhỏ hoặc cần tìm nghiệm nhan
 
 <p align="center">
   🔗 <a href="https://www.geeksforgeeks.org/artificial-intelligence/uniform-cost-search-ucs-in-ai/" target="_blank">
-  Tìm hiểu thêm về Uniform Cost Search (Geeksforgeeks)</a>
+  Tìm hiểu thêm về Uniform Cost Search (GeeksForGeeks)</a>
 </p>
 
 <hr>
@@ -205,7 +205,7 @@ và <b>DFS</b> (bộ nhớ nhỏ), rất phù hợp khi <b>không biết trướ
 
 <p align="center">
   🔗 <a href="https://www.geeksforgeeks.org/artificial-intelligence/iterative-deepening-search-ids-in-ai/" target="_blank">
-  Tìm hiểu thêm về Iterative Deepening Depth-First Search (Geeksforgeeks)</a>
+  Tìm hiểu thêm về Iterative Deepening Depth-First Search (GeeksForGeeks)</a>
 </p>
 
 <hr>
