@@ -22,9 +22,6 @@
       <li><a href="#35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">3.5. Bài toán ràng buộc (CSP)</a></li>
     </ul>
   </li>
-  <li><a href="#đánh-giá--so-sánh-hiệu-suất">Đánh giá & so sánh hiệu suất</a></li>
-  <li><a href="#cấu-trúc-thư-mục">Cấu trúc thư mục</a></li>
-  <li><a href="#giấy-phép--trích-dẫn">Giấy phép & trích dẫn</a></li>
 </ul>
 
 <hr>
