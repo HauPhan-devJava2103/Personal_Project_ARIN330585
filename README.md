@@ -15,11 +15,11 @@
   <li><a href="#nội-dung-dự-án">Nội dung dự án</a></li>
   <li><a href="#thuật-toán">Thuật toán</a>
     <ul>
-      <li><a href="#31-tìm-kiếm-không-thông-tin-uninformed-search">3.1. Tìm kiếm không thông tin (Uninformed Search)</a></li>
-      <li><a href="#32-tìm-kiếm-có-thông-tin-informed-search">3.2. Tìm kiếm có thông tin (Informed Search)</a></li>
-      <li><a href="#33-tìm-kiếm-cục-bộ-local-search">3.3. Tìm kiếm cục bộ (Local Search)</a></li>
-      <li><a href="#34-tìm-kiếm-trong-môi-trường-phức-tạp-complex-environment-search">3.4. Tìm kiếm trong môi trường phức tạp</a></li>
-      <li><a href="#35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">3.5. Bài toán ràng buộc (CSP)</a></li>
+      <li><a href="#31-tìm-kiếm-không-thông-tin-uninformed-search">4.1. Tìm kiếm không thông tin (Uninformed Search)</a></li>
+      <li><a href="#32-tìm-kiếm-có-thông-tin-informed-search">4.2. Tìm kiếm có thông tin (Informed Search)</a></li>
+      <li><a href="#33-tìm-kiếm-cục-bộ-local-search">4.3. Tìm kiếm cục bộ (Local Search)</a></li>
+      <li><a href="#34-tìm-kiếm-trong-môi-trường-phức-tạp-complex-environment-search">4.4. Tìm kiếm trong môi trường phức tạp</a></li>
+      <li><a href="#35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">4.5. Bài toán ràng buộc (CSP)</a></li>
     </ul>
   </li>
   <li><a href="#tham-khao">Tài liệu tham khảo</a>
@@ -59,9 +59,9 @@ không có hai quân nào tấn công nhau. Điều đó đồng nghĩa mỗi h�
 
 <h2 id="thuật-toán">Thuật toán</h2>
 
-<h3 id="31-tìm-kiếm-không-thông-tin-uninformed-search">3.1. Tìm kiếm không thông tin (Uninformed Search)</h3>
+<h3 id="31-tìm-kiếm-không-thông-tin-uninformed-search">4.1. Tìm kiếm không thông tin (Uninformed Search)</h3>
 
-<h4>3.1.1. Thành phần bài toán</h4>
+<h4>4.1.1. Thành phần bài toán</h4>
 <ul>
   <li><b>Trạng thái:</b> mỗi trạng thái là danh sách (hoặc tuple) gồm các cặp (row, col) biểu diễn vị trí của các Xe.</li>
   <li><b>Hành động:</b> đặt thêm một Xe vào hàng kế tiếp ở cột hợp lệ.</li>
@@ -217,7 +217,7 @@ và <b>DFS</b> (bộ nhớ nhỏ), rất phù hợp khi <b>không biết trướ
 </ul>
 
 
-<h3 id="#32-tìm-kiếm-có-thông-tin-informed-search">3.2.1. Thành phần chính của bài toán và lời giải (8 Rooks)</h3>
+<h3 id="#32-tìm-kiếm-có-thông-tin-informed-search">4.2.1. Thành phần chính của bài toán và lời giải (8 Rooks)</h3>
 
 <h4>Thành phần chính của bài toán</h4>
 <ul>
@@ -360,9 +360,9 @@ A* mở rộng trạng thái có <b>f nhỏ nhất</b>, giúp tìm được lờ
 </ul>
 
 
-<h3 id="33-tìm-kiếm-cục-bộ-local-search">3.3. Tìm kiếm cục bộ (Local Search)</h3>
+<h3 id="33-tìm-kiếm-cục-bộ-local-search">4.3. Tìm kiếm cục bộ (Local Search)</h3>
 
-<h4>3.3.1. Thành phần bài toán</h4>
+<h4>4.3.1. Thành phần bài toán</h4>
 <ul>
   <li><b>Trạng thái:</b> một danh sách gồm các cặp <code>(row, col)</code> biểu diễn vị trí của 8 quân Xe
       (có thể trùng cột ở trạng thái ban đầu).</li>
@@ -520,7 +520,7 @@ Cách này giảm mạnh nhánh cần duyệt so với BFS, nhưng <i>không đ�
   <li><b>Nhược điểm:</b> Nhạy với thước đo <code>score</code>; cắt tỉa quá sớm có thể bỏ lỡ nghiệm.</li>
 </ul>
 
-<h3 id="34-tìm-kiếm-trong-môi-trường-phức-tạp-complex-environment-search">3.4. Tìm kiếm trong môi trường phức tạp</h3>
+<h3 id="34-tìm-kiếm-trong-môi-trường-phức-tạp-complex-environment-search">4.4. Tìm kiếm trong môi trường phức tạp</h3>
 <p>
 Trong phần này, bài toán <b>Eight Rooks</b> được mở rộng sang các biến thể phức tạp hơn, nơi môi trường có thể
 <b>không xác định (Non-deterministic)</b> hoặc <b>quan sát không đầy đủ (Partially Observable)</b>.
@@ -684,7 +684,7 @@ Có thể bật <b>MRV</b> để chọn hàng có miền nhỏ nhất, và <b>x�
 
 <hr>
 
-<h3 id="35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">3.5. Bài toán ràng buộc (CSP)</h3>
+<h3 id="35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">4.5. Bài toán ràng buộc (CSP)</h3>
 
 <p><b>Thành phần chính của bài toán:</b></p>
 
@@ -805,7 +805,7 @@ Mỗi khi gán <code>row → col</code>, thuật toán chạy <b>AC-3</b> để 
   🔗 <a href="https://en.wikipedia.org/wiki/AC-3_algorithm" target="_blank">AC-3 Algorithm (Wikipedia)</a>
 </p>
 
-<h3 id="tham-khao">Tài liệu tham khảo</h3>
+<h3 id="tham-khao">5. Tài liệu tham khảo</h3>
 <p>Bài làm có sự hỗ trợ chat GPT</p>
 <ul>
   <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/" target="_blank">Geeksforgeeks</a></li>
