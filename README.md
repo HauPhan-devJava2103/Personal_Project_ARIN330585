@@ -22,6 +22,7 @@
       <li><a href="#35-tìm-kiếm-có-điều-kiện-ràng-buộc-constraint-satisfaction-problem">3.5. Bài toán ràng buộc (CSP)</a></li>
     </ul>
   </li>
+  <li><a href="#tham-khao">Tài liệu tham khảo</a>
 </ul>
 
 <hr>
@@ -804,4 +805,10 @@ Mỗi khi gán <code>row → col</code>, thuật toán chạy <b>AC-3</b> để 
   🔗 <a href="https://en.wikipedia.org/wiki/AC-3_algorithm" target="_blank">AC-3 Algorithm (Wikipedia)</a>
 </p>
 
-
+<h3 id="tham-khao">Tài liệu tham khảo</h3>
+<p>Bài làm có sự hỗ trợ chat GPT</p>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/" target="_blank"></a></li>
+  <li><a href="https://www.youtube.com/watch?v=Nw95_WLDTco" target="_blank"></a></li>
+  <li><a href="https://www.youtube.com/watch?v=K5IgvclblDg&list=PLmcndht8X48xsrannIVBpuMrc_gTohX4C" target="_blank"></a></li>
+</ul>
