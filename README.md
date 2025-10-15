@@ -217,7 +217,7 @@ và <b>DFS</b> (bộ nhớ nhỏ), rất phù hợp khi <b>không biết trướ
 </ul>
 
 
-<h3 id="#32-tìm-kiếm-có-thông-tin-informed-search">4.2.1. Thành phần chính của bài toán và lời giải (8 Rooks)</h3>
+<h3 id="#32-tìm-kiếm-có-thông-tin-informed-search">4.2. Tìm kiếm có thông tin (Informed Search)</h3>
 
 <h4>Thành phần chính của bài toán</h4>
 <ul>
