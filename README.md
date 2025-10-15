@@ -808,7 +808,6 @@ Mỗi khi gán <code>row → col</code>, thuật toán chạy <b>AC-3</b> để 
 <h3 id="tham-khao">Tài liệu tham khảo</h3>
 <p>Bài làm có sự hỗ trợ chat GPT</p>
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/" target="_blank"></a></li>
-  <li><a href="https://www.youtube.com/watch?v=Nw95_WLDTco" target="_blank"></a></li>
-  <li><a href="https://www.youtube.com/watch?v=K5IgvclblDg&list=PLmcndht8X48xsrannIVBpuMrc_gTohX4C" target="_blank"></a></li>
+  <li><a href="https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/" target="_blank">Geeksforgeeks</a></li>
+  <li><a href="https://www.youtube.com/watch?v=K5IgvclblDg&list=PLmcndht8X48xsrannIVBpuMrc_gTohX4C" target="_blank">Video tham khảo</a></li>
 </ul>
